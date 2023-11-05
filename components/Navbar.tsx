@@ -25,7 +25,7 @@ const Navbar = forwardRef((props, ref: ForwardedRef<HTMLDivElement>) => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <Link className="navbar-brand" href="https://www.linkedin.com/company/tectsoft">
+            <Link className="navbar-brand" href="/">
               <li className="nav-item d-flex align-items-center">
                 <Image src={linkedIn} alt="Site Icon" width={40}  className="d-inline-block align-text-top " />
               </li>
