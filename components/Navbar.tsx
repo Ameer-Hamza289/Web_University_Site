@@ -16,7 +16,8 @@ const Navbar = forwardRef((props, ref: ForwardedRef<HTMLDivElement>) => {
     <nav className="navbar navbar-expand-lg py-4 " ref={ref} style={{ backgroundColor: "rgba( 16, 16, 16, 1)" }}>
       <div className="container">
         <Link className="navbar-brand" href="/">
-          <Image src={logo} width={170} alt="Site Logo"  className="d-inline-block align-text-top" />
+          <span  className='uppercase text-white fw-bold'>The Univesity of Development</span>
+          {/* <Image src={logo} width={170} alt="Site Logo"  className="d-inline-block align-text-top" /> */}
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon">

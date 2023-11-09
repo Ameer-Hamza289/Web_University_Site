@@ -12,9 +12,9 @@ const Footer = forwardRef((props, ref: ForwardedRef<HTMLDivElement>) => {
     <footer className="py-5 text-white" ref={ref} style={{backgroundColor: "rgba(16,16,16,1)" }}>
       <div className="container">
         <div className="row flex-column gap-3 align-items-center">
-          <div className="col-12  col-md-4 mb-3 mb-md-0">
+          <div className="col-12   mb-3 mb-md-0">
             <div className="d-flex justify-content-center gap-2 align-items-center">
-              <Image src={logo} alt=" Logo" width={170} height={40} />
+              <span className='text-white  ' style={{ fontWeight:"600",fontSize:"20px" }}>University of Development</span>
             </div>
           </div>
           <div className="col-12 col-md-8 d-flex justify-content-center  align-items-center">
@@ -57,9 +57,7 @@ const Footer = forwardRef((props, ref: ForwardedRef<HTMLDivElement>) => {
           </div>
           <div className='d-flex fs-5 gap-5  justify-content-center'>
             <span className='fw-normal '>University Of Development © 2023 . All rights reserved </span>
-            <span>|</span>
-            <span className='fw-normal'>Terms of Service</span>
-            <span className='fw-normal'>Privacy Policy</span>
+            
           </div>
         </div>
       </div>

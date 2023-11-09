@@ -14,32 +14,33 @@ import Link from 'next/link'
         {
             title:"Login",
             icon:hand,
-            backgroundColor:"rgba(16,16,16,1)",
+            backgroundColor:"#198754",
             link:"/login"
         },
         {
             title:"Departments",
             icon:smartphone,
-            backgroundColor:"rgba(16,16,16,1)",
+            backgroundColor:"#ffc107",
             link:"/departments"
         },
         {
             title:"Careers",
             icon:Case,
-            backgroundColor:"rgba(16,16,16,1)",
+            backgroundColor:"#ffc107",
             link:"/careers"
         },
         {
             title:"Contact Us",
             icon:mail,
-            backgroundColor:"rgba(67, 83, 255, 1)",
+            backgroundColor:"#198754",
             link:"/contactUs"
         },
     ]
   return (
     <div className="offcanvas offcanvas-end p-4" tabIndex={-1} id="offcanvas" aria-labelledby="offcanvasLabel">
   <div className="offcanvas-header">
-  <Image src={logo} width={170} alt="Site Logo"  className="d-inline-block align-text-top" />
+  {/* <Image src={logo} width={170} alt="Site Logo"  className="d-inline-block align-text-top" /> */}
+  <span className='fw-bold ' style={{ fontSize:"18px"}}>University of Developoment</span>
     <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div className="offcanvas-body">
